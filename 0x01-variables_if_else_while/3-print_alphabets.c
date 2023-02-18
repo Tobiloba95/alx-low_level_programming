@@ -20,7 +20,7 @@ int main(void)
 	{
 		putchar(low);
 	}
-	putchar('\n');
+	p utchar('\n');
 
 	return (0);
 }
