@@ -5,7 +5,7 @@
  * @n: An input integer
  * Return: Nothing
  */
-void print_numbers(int n)
+void print_number(int n)
 {
 	if (n == 0)
 	{
@@ -14,10 +14,11 @@ void print_numbers(int n)
 	else if (n < 0)
 	{
 		_putchar('-');
-		print_numbers(n * -1);
+		n = -n;
 	}
-	else
+	else if (n/10)
 	{
-		print_numbers(n);
+		putchar(n%10 + '0');
 	}
 }
+
