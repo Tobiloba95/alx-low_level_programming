@@ -12,3 +12,5 @@ This project is  meant to help me learn basic concepts of programming in order t
 0x03. C - Debugging
 
 0x04. C - More functions, more nested loops
+
+0x05. C - Pointers, arrays and strings
